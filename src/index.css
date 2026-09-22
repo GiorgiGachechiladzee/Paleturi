@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-linen: #FDFBF7;
+  --color-linen-card: #F5EFE6;
+  --color-timber: #3D2314;
+  --color-timber-light: #6E5343;
+  --color-brand-brown: #8C4A1A;
+  --color-brand-brown-hover: #733B13;
+  --color-brand-green: #22C55E;
+  --color-brand-green-hover: #16A34A;
+  --color-brand-lightgreen: #DCFCE7;
+}
+
+body {
+  background-color: var(--color-linen, #FDFBF7);
+  color: var(--color-timber, #3D2314);
+  font-family: system-ui, -apple-system, sans-serif;
+}
